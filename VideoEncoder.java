@@ -1,6 +1,5 @@
 package com.mytube;
 
-public class VideoEncoder {
-    public void encode(Video video) {
-    }
+public interface VideoEncoder {
+    void encode(Video video);
 }

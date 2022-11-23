@@ -1,6 +1,5 @@
 package com.mytube;
 
-public class VideoDatabase {
-    public void store(Video video) {
-    }
+public interface VideoDatabase {
+    void store(Video video);
 }
